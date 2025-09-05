@@ -29,7 +29,7 @@ Um sistema de autenticação baseado em **JSON Web Token (JWT)** desenvolvido em
 
 Clone este repositório:
 
-```bash
+```
 git clone https://github.com/Saulodtarso06/SecureAuth-JWT.git
 
 cd SecureAuth-JWT
@@ -89,7 +89,7 @@ Rota Protegida
 GET /protected
 Exemplo de rota que exige autenticação via Bearer Token.
 
-🧪 Exemplo de Requisição
+### Exemplo de Requisição
 ```
 POST /auth/login
 Content-Type: application/json
