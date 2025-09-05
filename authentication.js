@@ -17,4 +17,4 @@ app.post('/login', (req, res, next) => {
     }
 
     res.status(401).json({ message: 'Invalid credentials!' });
-})
+});
